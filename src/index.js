@@ -2,8 +2,8 @@ const { Command } = require("commander");
 const addTeamCommand = require("./commands/addTeam");
 
 const program = new Command();
-program.version("1.0.0");
-
+program.version("1.1.0");
+1
 program.addCommand(addTeamCommand);
 
 program.on("command:*", function () {
